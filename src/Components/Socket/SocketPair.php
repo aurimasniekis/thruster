@@ -3,7 +3,6 @@
 namespace Thruster\Components\Socket;
 
 use function Funct\CodeBlocks\false;
-use Thruster\Components\Socket\Exception\SocketException;
 use Thruster\Components\Socket\Exception\SocketPairException;
 use Thruster\Wrappers\SocketLib\SocketLibTrait;
 
