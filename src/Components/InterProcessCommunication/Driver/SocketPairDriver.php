@@ -60,7 +60,7 @@ class SocketPairDriver implements DriverInterface
         }
 
         $serialized = serialize($content);
-        $header     = pack('N', strlen($serialized));    // 4 byte length
+        $header     = pack('N', strlen($serialized)); // 4 byte length
         $buffer     = $header . $serialized;
         $total      = strlen($buffer);
         while (true) {
