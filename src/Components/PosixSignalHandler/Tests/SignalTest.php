@@ -7,8 +7,8 @@ use Thruster\Components\PosixSignalHandler\Signal;
 class SignalTest extends \PHPUnit_Framework_TestCase
 {
 
-   public function testSignal()
-   {
+    public function testSignal()
+    {
         $signalNo = 9;
         $destination = 1;
 

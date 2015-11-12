@@ -100,7 +100,7 @@ class PacketHandler
      */
     public function hasHandlers($packetType = null): bool
     {
-        return (bool)count($this->getHandlers($packetType));
+        return (bool) count($this->getHandlers($packetType));
     }
 
     /**

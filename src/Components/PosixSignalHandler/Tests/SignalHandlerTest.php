@@ -39,7 +39,7 @@ class SignalHandlerTest extends \PHPUnit_Framework_TestCase
 
     public function testSend()
     {
-        $signal = new Signal(9,1);
+        $signal = new Signal(9, 1);
 
         $this->posix->expects($this->once())
             ->method('kill')

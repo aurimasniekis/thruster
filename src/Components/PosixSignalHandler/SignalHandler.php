@@ -136,7 +136,7 @@ class SignalHandler
      */
     public function hasHandlers(int $signalNo = null) : bool
     {
-        return (bool)count($this->getHandlers($signalNo));
+        return (bool) count($this->getHandlers($signalNo));
     }
 
     /**
