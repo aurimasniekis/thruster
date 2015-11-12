@@ -11,7 +11,7 @@
         "php": "~7.0",
         "ext-pcntl": "*",
         "ext-posix": "*",
-        "ext-socket": "*",
+        "ext-sockets": "*",
         "funct/funct": "dev-master"
     },
     "require-dev": {
