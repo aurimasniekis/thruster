@@ -1,0 +1,17 @@
+{
+  "name": "thruster",
+  "version": "1.0.0",
+  "description": "Thruster",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/thruster/thruster.git"
+  },
+  "author": "Aurimas Niekis <aurimas@niekis.lt>",
+  "license": "MIT",
+  "homepage": "https://github.com/thruster/thruster#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.0",
+    "lr-http-server": "^0.1.1"
+  }
+}

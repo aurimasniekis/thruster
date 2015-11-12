@@ -1,0 +1,17 @@
+language: php
+
+php:
+  - 7.0
+
+install:
+  - composer require satooshi/php-coveralls
+
+before_script:
+  - mkdir -p build/logs
+  - composer install
+
+script:
+  - phpunit
+
+after_success:
+  - vendor/bin/coveralls -v

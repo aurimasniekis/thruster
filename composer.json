@@ -1,0 +1,25 @@
+{
+    "name": "thruster/thruster",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aurimas Niekis",
+            "email": "aurimas@niekis.lt"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "ext-pcntl": "*",
+        "ext-posix": "*",
+        "ext-socket": "*",
+        "funct/funct": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thruster\\": "src/"
+        }
+    }
+}
